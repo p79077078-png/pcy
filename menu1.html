@@ -1,5 +1,8 @@
 !DOCTYPE html> <html>
-<head><title>방문 카운트 쿠키</title> <script>
+<head>
+  <meta charset="UTF-8">
+  <title>방문 카운트 쿠키</title>
+  <script>
 function GetCookie (name) { var str = name+"=";
 var pairs = document.cookie.split(";"); // 쿠키문자열을 ;을 경계로 분할 for(var i=0; i<pairs.length; i++) {
 var pair = pairs[i].trim(); // 쿠키 앞뒤의 빈칸 제거 var unit = pair.split("=");
